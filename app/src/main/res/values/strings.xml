@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">stumart</string>
+    <string name="description">
+        If you have any issues regarding our app or any updations needed please contact the administrator regards your issue.
+    </string>
+    <string name="disclaimer">
+        Any forms of nudity content or inappropriate content will not be encouraged in this app and the user will be disabled from the application.
+    </string>
+</resources>

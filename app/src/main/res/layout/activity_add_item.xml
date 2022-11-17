@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activities.AddItemActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/back"
+            android:layout_margin="15dp"
+            android:id="@+id/imgBack"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:fontFamily="sans-serif-medium"
+            android:text="Hey what's the item"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/black" />
+
+
+
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#c6c6c6"
+        android:layout_marginTop="2dp"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        android:fillViewport="true"
+        android:id="@+id/scrollView"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Choose Image:"
+                android:textSize="15sp"
+                android:fontFamily="@font/regular"
+                android:textColor="@android:color/holo_red_light"
+                android:padding="5dp"
+                />
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/logo"
+                android:layout_marginStart="10dp"
+                app:riv_corner_radius="5dp"
+                app:riv_border_width="1dp"
+                android:scaleType="centerCrop"
+                app:riv_border_color="@android:color/holo_blue_dark"
+                android:id="@+id/productImage"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Item Name:"
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/regular"
+                android:textColor="@android:color/holo_red_light"
+                android:padding="5dp"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_bg"
+                android:padding="8dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:hint="Enter Item Name"
+                android:textColor="@color/black"
+                android:fontFamily="@font/bold"
+                android:id="@+id/inputItemName"
+                android:inputType="textCapSentences"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Item Description:"
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/regular"
+                android:textColor="@android:color/holo_red_light"
+                android:padding="5dp"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_bg"
+                android:padding="8dp"
+                android:minHeight="100dp"
+                android:gravity="top|start"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:hint="Describe about your product"
+                android:textColor="@color/black"
+                android:fontFamily="@font/bold"
+                android:id="@+id/inputDescription"
+                android:inputType="textMultiLine"
+
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Amount:"
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/regular"
+                android:textColor="@android:color/holo_red_light"
+                android:padding="5dp"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_bg"
+                android:padding="8dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:hint="Enter Amount"
+                android:textColor="@color/black"
+                android:fontFamily="@font/bold"
+                android:inputType="number"
+                android:id="@+id/inputAmount"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Category:"
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/regular"
+                android:textColor="@android:color/holo_red_light"
+                android:padding="5dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_bg"
+                android:padding="8dp"
+                android:backgroundTint="#FF9800"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:textColor="@color/white"
+                android:text="Mobile"
+                android:fontFamily="@font/bold"
+                android:id="@+id/txtCategory"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Disclaimer:"
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/regular"
+                android:textColor="@android:color/holo_red_light"
+                android:padding="5dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_bg"
+                android:padding="8dp"
+                android:backgroundTint="#F5F7FA"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:textColor="#B3000000"
+                android:text="@string/disclaimer"
+                android:fontFamily="@font/bold"
+                />
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+
+
+                <Button
+                    android:id="@+id/btnAddItem"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="35dp"
+                    android:layout_marginEnd="35dp"
+                    android:layout_marginTop="25dp"
+                    android:backgroundTint="@android:color/holo_red_light"
+                    android:text="Add Item"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="5dp"
+                    android:fontFamily="@font/thick_bold"
+                    android:textAllCaps="false"
+                    app:cornerRadius="25dp" />
+
+
+
+
+
+
+            </RelativeLayout>
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+    </ScrollView>
+
+</LinearLayout>

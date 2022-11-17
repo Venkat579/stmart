@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="Refresh"
+        android:icon="@drawable/ic_refresh_white"
+        android:alphabeticShortcut="r"
+        android:orderInCategory="1"
+        app:showAsAction="ifRoom"
+        android:id="@+id/menu_refresh"/>
+
+    <item android:title="Profile"
+        android:id="@+id/menu_profile"/>
+    <item android:title="Sell ur goods"
+        android:id="@+id/sell_goods"/>
+
+    <!--<item android:title="Update Email"
+        android:id="@+id/menu_update_email"/>-->
+    <item android:title="Change Password"
+        android:id="@+id/menu_change_password"/>
+    <item android:title="Settings"
+        android:id="@+id/menu_update_settings"/>
+    <!--<item android:title="Delete profile"
+        android:id="@+id/menu_delete_profile"/>-->
+    <item android:title="Logout"
+        android:id="@+id/menu_logout"/>
+</menu>

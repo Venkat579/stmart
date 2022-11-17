@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "182242533873",
+    "project_id": "stmart-e7cfe",
+    "storage_bucket": "stmart-e7cfe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:182242533873:android:8e0e7db03db44e462de450",
+        "android_client_info": {
+          "package_name": "com.example.stmart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "182242533873-aa2234s6nnvti4canrnqltu6ie8jil09.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1LQ5leKDKXjgvfV_u-rgC0UumhOhSHfg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "182242533873-aa2234s6nnvti4canrnqltu6ie8jil09.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
